@@ -1,0 +1,19 @@
+.main-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header__logo {
+  height: 84px;
+
+  @media (min-width: $tablet) {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media (min-width: $desktop) {
+    height: 97px;
+  }
+}
