@@ -62,6 +62,27 @@
 
   @media (min-width: $tablet) {
     color: $black;
+
+    &:hover {
+      color: $basic-blue;
+    }
+
+    &:active {
+      color: $black;
+    }
+
+    &--active {
+      color: #766357;
+
+      &:hover {
+        color: #604E43;
+      }
+
+      &:active {
+        color: #766357;
+        opacity: 0.3;
+      }
+    }
   }
 }
 

@@ -4,7 +4,9 @@
 }
 
 .main-header__logo {
+  display: block;
   height: 84px;
+  text-align: center;
 
   @media (min-width: $tablet) {
     position: absolute;

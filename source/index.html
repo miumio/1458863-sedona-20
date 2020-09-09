@@ -15,7 +15,7 @@
         </button>
         <ul class="site-navigation__list">
           <li class="site-navigation__item">
-            <a href="#" class="site-navigation__link">Главная</a>
+            <a href="#" class="site-navigation__link site-navigation__link--active">Главная</a>
           </li>
           <li class="site-navigation__item">
             <a href="#" class="site-navigation__link">Фото и видео</a>
@@ -28,7 +28,11 @@
           </li>
         </ul>
         <a class="main-header__logo">
-          <img src="" width="102" height="84" alt="Логотип City of Sedona">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+            <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+            <img src="img/logo-sedona-mobile.svg" width="102" height="84" alt="Логотип City of Sedona">
+          </picture>
         </a>
       </nav>
     </header>
